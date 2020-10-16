@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta charset="utf-8">
+    <title>Decor Home</title>
+    <link rel="shortcut icon" href="images/logo1.jpg" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+    <link rel="stylesheet" type="text/css" href="css/style7.css" />
+    
+    <script type="text/javascript" src="js/slideshow.js"></script>
+    
+    <link rel="shortcut icon" href="images/logo1.jpg" />
+
+<style>
+  body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        .title {
+            height: 100px;
+            background-color: black;
+            margin-bottom: 0px;
+            padding: 0px;
+        }
+
+        .logo1_header {
+            width: 120px;
+            height: 85px;
+            float: left;
+            margin-left: 30px;
+        }
+
+        .navbar {
+            width: 1300px;
+            margin: 0 auto;
+            padding: 0px 0;
+            display: inline-block;
+            background-color: #c0c0c0;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+            z-index: 1;
+        }
+
+        .navbar ul li {
+            list-style-type: none;
+            display: inline-block;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul li:hover {
+            background-color: black;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            color: #f5f5f5;
+            font-family: Georgia, serif;
+            display: block;
+            padding: 0 18px;
+        }
+
+        input[type="text"] {
+            float: right;
+            border: none;
+            border-radius: 30px;
+            padding: 10px;
+            margin: 30px;
+            width: 220px;
+        }
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.a{
+float :right;
+height:225px;
+  width: 50%;
+  
+}
+
+
+}
+</style>
+<body onload="currentslide(0)">
+    <header>
+        <div class="title">
+            <a href="HOME">
+                <img src="images/logo1.jpg" class="logo1_header">
+            </a>
+            <input type="text" name="" placeholder="Search">
+        </div>
+        <div class="navbar">
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="gallery.html">GALLERY</a></li>
+              <li><a href="living.html">LIVING ROOM</a></li>
+              <li><a href="kitchen.html">KITCHEN</a></li>
+              <li><a href="bedroom.html">BEDROOM</a></li>
+              <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            </nav>
+
+    </header>
+    
+
+<footer>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="images/design1.jpg" style="width:50%" height="800">
+	<div class="a">
+	
+	
+	<img src="images/room1.jpg" style="width:100%" height="400">
+	<br>
+	<img src="images/kitchen1.jpg" style="width:100%" height="400">
+	</div>
+	
+	
+	 
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="images/design2.jpeg" style="width:50%" height="800">
+	<div class="a">
+	
+	<img src="images/room2.jpg" style="width:100%" height="400">
+	<br>
+	<img src="images/kitchen2.jpg" style="width:100%" height="400">
+	
+	</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="images/design3.jpg" style="width:50%" height="800">
+	<div class="a">
+	<img src="images/room.jpg" style="width:100%" height="400">
+	<br>
+	<img src="images/kitchen3.jpg" style="width:100%" height="400">
+	</div>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="images/design4.jpg" style="width:50%" height="800">
+	<div class="a">
+	<img src="images/room4.jpg" style="width:100%" height="400">
+	<br>
+	<img src="images/kitchen5.jpg" style="width:100%" height="400">
+	</div>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="images/design5.jpg" style="width:50%" height="800">
+	<div class="a">
+	<img src="images/room5.jpg" style="width:100%" height="400">
+	<br>
+	<img src="images/kitchen4.jpg" style="width:100%" height="400">
+	</div>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="images/design6.jpg" style="width:50%" height="800">
+	<div class="a">
+	<img src="images/room6.jpg" style="width:100%" height="400">
+	<br>
+	<img src="images/kitchen6.jpg" style="width:100%" height="400">
+	</div>
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/design1.jpg" style="width:100%" height="200" onclick="currentSlide(1)" alt="Minimilastic Black and White Interior">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/design2.jpeg" style="width:100%" height="200" onclick="currentSlide(2)" alt="White Contempory Interior">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/design3.jpg" style="width:100%" height="200" onclick="currentSlide(3)" alt="Blush Black and White Decor">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/design4.jpg" style="width:100%" height="200" onclick="currentSlide(4)" alt="Spacious Black White Grey">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/design5.jpg" style="width:100%" height="200" onclick="currentSlide(5)" alt="Stunning Black White">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="images/design6.jpg" style="width:100%" height="200"  onclick="currentSlide(6)" alt="Black White Decor">
+    </div>
+  </div>
+</div>
+</footer>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    <!-- Footer Menu -->
+<footer id = "footer" style="text-align: center;"> 
+	
+	<div class="company-details" style=" background-color: rgb(196, 191, 191); text-align: center;"> 
+		<div class="row"> 
+			<div id ="col1"> 
+				<span id = "icon" class="fa fa-map-marker"></span> 
+					
+				<span> 
+					710-B, Advant Navis Business Park, 
+					<br />Sector-142, Mysore
+				</span> 
+			</div> 
+				
+			<div id ="col2"> 
+				<span id="icon" class="fa fa-phone"></span> 
+
+				<span> 
+					Telephone: +91-890 * * * * * * * 
+				</span> 
+			</div> 
+					
+			<div id ="col3"> 
+				<span id="icon" class="fa fa-envelope"></span> 
+				<span>xyz@abc.com</span> 
+			</div> 
+		</div> 
+	</div> 
+			
+	
+</footer>  
+</body>
+</html>

@@ -1,0 +1,19 @@
+body{
+    background: gray;
+}
+.living{
+    text-align: center;
+    margin: 10px 50px;
+  
+}
+
+.living img{
+    transition: 1s;
+    padding: 15px;
+    width: 200px;
+}
+
+.living img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.2);
+}

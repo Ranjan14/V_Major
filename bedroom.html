@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decor Home</title>
+    <link rel="shortcut icon" href="images/logo1.jpg" />
+    
+    <link rel="stylesheet" type="text/css" href="css/style5.css" />
+    <link rel="stylesheet" type="text/css" href="css/style7.css" />
+    <script type="text/javascript" src="js/script.js"></script>
+    
+	<style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        header {
+            margin: 0px;
+            padding: 0px;
+            overflow: hidden;
+        }
+
+        .title {
+            height: 100px;
+            background-color: black;
+            margin-bottom: 0px;
+            padding: 0px;
+        }
+
+        .logo1_header {
+            width: 120px;
+            height: 85px;
+            float: left;
+            margin-left: 30px;
+        }
+
+        .navbar {
+            width: 1300px;
+            margin: 0 auto;
+            padding: 0px 0;
+            display: inline-block;
+            background-color: #c0c0c0;
+            box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.05);
+            z-index: 1;
+        }
+
+        .navbar ul li {
+            list-style-type: none;
+            display: inline-block;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar ul li:hover {
+            background-color: black;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            color: #f5f5f5;
+            font-family: Georgia, serif;
+            display: block;
+            padding: 0 18px;
+        }
+
+        input[type="text"] {
+            float: right;
+            border: none;
+            border-radius: 30px;
+            padding: 10px;
+            margin: 30px;
+            width: 220px;
+        }
+    </style>
+</head>
+<body onload="currentslide(0)" style="background-color: gray;">
+	<header>
+        <div class="title">
+            <a href="HOME">
+                <img src="images/logo1.jpg" class="logo1_header">
+            </a>
+            <input type="text" name="" placeholder="Search">
+        </div>
+        <div class="navbar" >
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="living.html">LIVING ROOM</a></li>
+                <li><a href="kitchen.html">KITCHEN</a></li>
+                <li><a href="bedroom.html">BEDROOM</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+            </nav>
+
+    </header>
+    <div class="slider">
+<div class="slider-wrapper_flex " >
+	<div class="slideflex" >
+		
+		<div class="slide-content"   >
+			
+			<div class="slide-title">CLASSIC</div>
+			<div class="slide-text">Classic suit look with high comforts</div>
+			<div class="slide-text">While the style names may shift a bit over time — cottage, farmhouse or rustic — country style is at its core: cozy, laid-back and full of homespun and hand-me-down charm. Antiques and primitive elements are a common feature that, as this bedroom proves, combine easily with a wide range of patterns and colors.</div>
+
+			
+        </div>	
+        <div class="slide-image slider-link prev"><img src="images/1.jpg"><div class="overlay"></div></div>
+	</div>
+	<div class="slideflex">
+		
+		<div class="slide-content">
+			
+			<div class="slide-title">ART DECO</div>
+			<div class="slide-text">Get style indoors into you </div>
+			<div class="slide-text">Throwing it back to the roaring '20s, Art Deco is glamorous, sophisticated and ornate. Luxe lighting, like this stunner of a chandelier, combines with bold patterns, opulent fabrics and eye-catching mirrored or metallic finishes. Bold furniture, like the dramatic tufted headboard and mirrored nightstands, are other signature elements of this glam style.</div>
+			
+        </div>	
+        <div class="slide-image slider-link next"><img src="images/2.jpg"><div class="overlay"></div></div>
+	</div>	
+	<div class="slideflex">
+
+		<div class="slide-content">
+			
+			<div class="slide-title">CONTEMPERORY</div>
+			<div class="slide-text"> Not modern but MODERN</div>
+			<div class="slide-text">The pared-down color palette of this bedroom is one of the characteristics of contemporary style, creating an uncluttered vibe that's made for sleeping. A focus on clean lines and basic shapes generates a visually compelling yet streamlined atmosphere. </div>
+			
+        </div>	
+        <div class="slide-image slider-link next"><img src="images/3.jpg"><div class="overlay"></div></div>
+	</div>
+	<div class="slideflex">
+		
+		<div class="slide-content">
+			
+			<div class="slide-title">FRENCH</div>
+			<div class="slide-text"> Experience the "FRENCH" style</div>
+			<div class="slide-text"> Also referred to as provincial or Provençal, French country style is elegant, relaxed, warm and welcoming. The perfect balance of rustic and refined, this quintessentially French style blends Parisian sophistication with the more laidback lifestyle of rural Provence. Cozy comfort and chic materials combine in this lovely bedroom with its blend of soft-to-the-touch textiles, warm, neutral color palette and subtly distressed furnishings.</div>
+			
+        </div>	
+        <div class="slide-image slider-link next"><img src="images/4.jpg"><div class="overlay"></div></div>
+	</div>
+</div>
+<div class="arrows">
+<a href="#" title="Previous" class="arrow slider-link prev"></a>
+<a href="#" title="Next" class="arrow slider-link next"></a>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="script.js"></script>
+  <!-- Footer Menu -->
+  <footer id = "footer" style="text-align: center;"> 
+	
+	<div class="company-details" style=" background-color: rgb(196, 191, 191); text-align: center;"> 
+		<div class="row"> 
+			<div id ="col1"> 
+				<span id = "icon" class="fa fa-map-marker"></span> 
+					
+				<span> 
+					710-B, Advant Navis Business Park, 
+					<br />Sector-142, Mysore
+				</span> 
+			</div> 
+				
+			<div id ="col2"> 
+				<span id="icon" class="fa fa-phone"></span> 
+
+				<span> 
+					Telephone: +91-890 * * * * * * * 
+				</span> 
+			</div> 
+					
+			<div id ="col3"> 
+				<span id="icon" class="fa fa-envelope"></span> 
+				<span>xyz@abc.com</span> 
+			</div> 
+		</div> 
+	</div> 
+			
+	
+</footer>
+</body>
+</html>
